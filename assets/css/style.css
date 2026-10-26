@@ -89,10 +89,6 @@ code { background: var(--code-bg); padding: .15em .4em; border-radius: 5px; }
 .brand:hover { text-decoration: none; }
 .brand img { width: 30px; height: 30px; display: block; }
 
-.topbar-spacer { flex: 1; }
-
-.topbar-links { display: flex; align-items: center; gap: .35rem; }
-
 .ghost-link {
   display: inline-flex;
   align-items: center;
@@ -363,15 +359,6 @@ th { background: var(--accent-soft); color: var(--accent-strong); font-weight: 6
 .pager span { display: block; font-size: .75rem; color: var(--muted); }
 .pager strong { font-size: .95rem; font-weight: 600; }
 .pager .next { text-align: right; }
-
-.site-footer {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-  font-size: .85rem;
-  color: var(--muted);
-}
-.site-footer ul { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; margin: .4rem 0 0; padding: 0; list-style: none; }
 
 /* ---------- responsive ---------- */
 .scrim {
